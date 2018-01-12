@@ -12,4 +12,4 @@
 
 Example:
 
-./slack-cli.js -u slack-cli -m "This is coming from command line" -c flame
+  ./slack-cli.js -u slack-cli -m "This is coming from command line" -c flame
