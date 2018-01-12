@@ -1,0 +1,29 @@
+{
+  "name": "slack-cli",
+  "version": "1.0.0",
+  "description": "A command-line tool for Slack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tibu/slack-cli.git"
+  },
+  "keywords": [
+    "slack"
+  ],
+  "author": "Tibor Szentmarjay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tibu/slack-cli/issues"
+  },
+  "homepage": "https://github.com/tibu/slack-cli#readme",
+  "bin": {
+    "snippet": "./slack-cli.js"
+  },
+  "dependencies": {
+    "commander": "^2.13.0",
+    "slack-node": "^0.1.8"
+  }
+}
