@@ -1,6 +1,6 @@
 {
   "name": "slack-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A command-line tool for Slack",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,7 @@
     "snippet": "./slack-cli.js"
   },
   "dependencies": {
-    "commander": "^2.13.0",
-    "slack-node": "^0.1.8"
+    "commander": "*",
+    "slack-node": "*"
   }
 }
