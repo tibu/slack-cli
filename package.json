@@ -24,6 +24,7 @@
   },
   "dependencies": {
     "commander": "*",
-    "slack-node": "*"
+    "slack-node": "*",
+    "lodash": ">=4.17.11"
   }
 }
